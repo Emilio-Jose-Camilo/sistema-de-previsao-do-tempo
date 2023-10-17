@@ -4,7 +4,7 @@ import { WheaterHomeComponent } from './modules/wheater/page/wheater-home/wheate
 
 const routes: Routes = [
   {path: '', redirectTo: 'weather', pathMatch: 'full'},
-  {path: 'wather', component: WheaterHomeComponent}
+  {path: 'weather', component: WheaterHomeComponent}
 ];
 
 @NgModule({
